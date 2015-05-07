@@ -156,15 +156,12 @@ namespace Pics.IGR.GDPicture
                     logger.Debug("Converter.GDPicture.ConvertPdfToTiff Error:" + Status.ToString());
                     return null;
                 }
-
             }
             else
             {
                 logger.Debug("Can't open file: " + strInputFilePath);
                 return null;
             }
-
-
         }
     }
 }
